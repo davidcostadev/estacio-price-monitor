@@ -39,8 +39,10 @@ function addData(data: IData) {
         const lastItem = oldData.data[oldData.data.length - 1];
         const importantFields = ['discount', 'from', 'to'];
 
-        if (isEqual(data, pick(lastItem, importantFields))) return;
-        console.log(new Date().toISOString(), 'No changes from last check');
+        if (isEqual(data, pick(lastItem, importantFields))) {
+          console.log(new Date().toISOString(), 'No changes from last check');
+          return;
+        }
       }
     }
 
