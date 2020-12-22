@@ -18,7 +18,7 @@
     "cron": "^1.7.2",
     "lodash.isequal": "^4.5.0",
     "lodash.pick": "^4.4.0",
-    "node-notifier": "^6.0.0",
+    "node-notifier": "^8.0.1",
     "puppeteer": "^2.0.0",
     "typescript": "^3.7.3",
     "uuid": "^3.3.3"
